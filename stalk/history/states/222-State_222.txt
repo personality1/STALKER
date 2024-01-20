@@ -1,0 +1,20 @@
+
+state={
+	id=222
+	name="STATE_222"
+	provinces={
+		822 2821 3017 3186 3253 3720 3855 6240 6422 6462 6932 7143 7436 7774 7897 7903 10686 10690 10714 10730 10737 10752 10754 10768 10769 10782 10806 10815 10840 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+		owner = M15
+		
+	}
+}

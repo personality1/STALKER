@@ -1,0 +1,19 @@
+state={
+	id=148
+	name="STATE_148"
+	provinces={
+		475 4139 9945 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		local_supplies=0.000
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = FRE
+			victory_points = { 9945 5 }
+		}
+}

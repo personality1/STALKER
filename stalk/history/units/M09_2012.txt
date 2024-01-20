@@ -1,0 +1,141 @@
+﻿division_template = {
+	name = "Unidentified Mutants"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Pyrogeists"
+		location = 5114
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Bloodsuckers"
+		location = 5114
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Poltergeists"
+		location = 3488
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Zombies"
+		location = 3488
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Bloodsuckers"
+		location = 6754
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 6842
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Karliks"
+		location = 11027
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Fracture Izloms"
+		location = 6301
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Burers"
+		location = 10972
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Controllers"
+		location = 6944
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 5536
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Karliks"
+		location = 594
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Fracture Izloms"
+		location = 594
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Burers"
+		location = 3336
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Controllers"
+		location = 11828
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "M09"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

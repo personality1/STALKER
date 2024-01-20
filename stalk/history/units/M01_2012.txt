@@ -1,0 +1,45 @@
+﻿division_template = {
+	name = "Unidentified Mutants"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Dogs"
+		location = 10224
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Pseudodogs"
+		location = 10224
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Dogs"
+		location = 10224
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "M01"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

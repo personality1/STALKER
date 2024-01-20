@@ -1,0 +1,18 @@
+state={
+	id=12
+	name="STATE_12"
+	provinces={
+		6309 7207 8497 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = M12
+			victory_points = { 7207 5 }
+		}
+}

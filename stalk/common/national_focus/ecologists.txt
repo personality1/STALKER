@@ -1,0 +1,113 @@
+focus_tree = {
+	id = ecologists_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ECO
+		}
+	}
+	default = no
+	focus = {
+		id = ECO_main_council
+		icon = GFX_focus_FIN_parmis_devils
+		cost = 1
+		x = 18
+		y = 1
+			completion_reward = {
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = ECO_research_1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ECO_main_council
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = ECO_psy_helmet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ECO_research_1
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = ECO_main_quest_start
+		icon = GFX_goal_generic_attack_allies
+		cost = 1
+		prerequisite = {
+			focus = ECO_main_council
+		}
+		x = 18
+		y = 2
+			completion_reward = {
+					news_event = loners.1
+				}
+
+	}
+	focus = {
+		id = ECO_mil_connect
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ECO_main_quest_start
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = ECO_mil_support
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ECO_main_quest_start
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = ECO_main_wars
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10
+		prerequisite = {
+			focus = ECO_main_council
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = ECO_mutants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ECO_main_wars
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = ECO_psy_helmet_calibration
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ECO_psy_helmet
+		}
+		x = 14
+		y = 4
+
+	}
+}

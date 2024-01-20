@@ -1,0 +1,18 @@
+state={
+	id=293
+	name="STATE_293"
+	provinces={
+		427 611 1286 1789 2257 3145 3476 3627 4240 4871 4903 5020 5036 5164 5246 5254 5282 5542 5761 6149 6425 6922 6955 6984 7003 7127 7206 7498 7656 7847 8051 8149 11385 11421 11447 11450 11465 11477 11478 11501 11506 11528 11530 11533 11552 11554 11593 11594 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = MON
+			victory_points = { 7127 20 }
+		}
+}

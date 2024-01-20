@@ -1,0 +1,94 @@
+﻿division_template = {
+	name = "Mercenary Squad"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Klyatiy's Crew"
+		location = 1625
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Naebnik's Squad"
+		location = 1625
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Ant's Squad"
+		location = 2940
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Sanya Sever Squad"
+		location = 11633
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Slon Squad"
+		location = 2194
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "GOST Squad"
+		location = 12016
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Wolfhound's Platoon"
+		location = 2194
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Hog's Squad"
+		location = 12016
+		division_template = "Mercenary Squad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.00
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MER"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MER"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

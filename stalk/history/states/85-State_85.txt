@@ -1,0 +1,18 @@
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		698 1535 1624 1626 1758 2644 3303 3749 4495 4739 4970 5059 5095 5177 5537 5733 5794 6598 6661 6672 7354 7439 7616 7753 8081 9300 9301 9349 9378 9387 9397 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = MON
+			
+		}
+}

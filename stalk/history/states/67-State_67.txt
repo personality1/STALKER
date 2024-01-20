@@ -1,0 +1,17 @@
+state={
+	id=67
+	name="STATE_67"
+	provinces={
+		1267 1922 2703 2930 2997 3192 3226 3250 3676 4099 5175 5452 5453 5784 6083 6335 7314 7366 7756 9065 9114 9138 9273 9340 9355 9382 9396 9420 9445 9531 9556 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = M12
+		}
+}

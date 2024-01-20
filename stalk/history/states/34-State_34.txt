@@ -1,0 +1,18 @@
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		1134 1707 3159 3272 4432 4503 5141 5613 5691 5745 7996 8816 8835 8841 8847 8876 8892 8893 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = BAN
+			victory_points = { 1707 30 }
+		}
+}

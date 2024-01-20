@@ -1,0 +1,17 @@
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		1396 1527 2068 2170 2300 2380 2638 2647 2749 2806 2883 3132 3499 3962 4393 4602 4974 5106 5162 5285 5330 5573 5898 6238 7000 7059 7236 7394 7905 7960 8080 8334 8912 8927 9037 9048 9075 9104 9242 9259 9267 9285 9303 9391 9410 9423 9450 9481 9532 9559 9583 9631 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = M03
+		}
+}

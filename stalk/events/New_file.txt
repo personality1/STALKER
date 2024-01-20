@@ -1,0 +1,19 @@
+﻿country_event = {
+	id = namespace.0
+	title = namespace.0.t
+	picture = GFX_news_event_009
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+			has_completed_focus = LON_main_quest_start
+}
+
+	}
+	option = {
+	name = namespace.count.a
+
+	}
+
+	}

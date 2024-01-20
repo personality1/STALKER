@@ -1,0 +1,18 @@
+state={
+	id=273
+	name="STATE_273"
+	provinces={
+		4976 8210 11172 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = CLS
+			victory_points = { 11172 15 }
+		}
+}

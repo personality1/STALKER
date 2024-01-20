@@ -1,0 +1,78 @@
+﻿division_template = {
+	name = "Duty Squad"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Zulus Squad"
+		location = 9946
+		division_template = "Duty Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Skull's Squad"
+		location = 5249
+		division_template = "Duty Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Shulga's Squad"
+		location = 5394
+		division_template = "Duty Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Petrenko's Squad"
+		location = 4882
+		division_template = "Duty Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Plichko Squad"
+		location = 6611
+		division_template = "Duty Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Krylov Squad"
+		location = 10222
+		division_template = "Duty Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "DUT"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "DUT"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

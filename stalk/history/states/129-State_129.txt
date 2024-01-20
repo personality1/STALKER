@@ -1,0 +1,19 @@
+
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		396 1424 1428 1849 2286 2328 3105 4150 4226 4927 5394 5567 6399 6542 6611 6691 7010 7012 7598 9905 10003 10123 10193 10217 10234 10248 10273 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+		owner = DUT
+	}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		998 1569 3152 3893 4363 4533 4769 4984 5057 5522 5580 5919 7306 7402 8020 8045 8197 9161 9182 9186 9187 9189 9208 9210 9218 9254 9272 9277 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+		owner = M08
+		victory_points = { 8197 40 }
+	}
+}

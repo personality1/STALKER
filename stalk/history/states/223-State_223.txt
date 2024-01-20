@@ -1,0 +1,18 @@
+state={
+	id=223
+	name="STATE_223"
+	provinces={
+		512 7542 10724 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = MON
+			victory_points = { 7542 5 }
+		}
+}

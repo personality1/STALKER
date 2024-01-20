@@ -1,0 +1,125 @@
+﻿division_template = {
+	name = "Unidentified Mutants"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Pseudodogs"
+		location = 6544
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Bloodsuckers"
+		location = 10812
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Poltergeists"
+		location = 2646
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Bloodsuckers"
+		location = 10813
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Bloodsuckers"
+		location = 888
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 10389
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 2055
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 11686
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 2055
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 888
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 2697
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 11422
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Snorks"
+		location = 6169
+		division_template = "Unidentified Mutants"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.00
+
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "M14"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

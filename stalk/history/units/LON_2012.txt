@@ -1,0 +1,59 @@
+﻿division_template = {
+	name = "Loners Squad"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Father Valerian Squad"
+		location = 10578
+		division_template = "Loners Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Petruha Squad"
+		location = 10235
+		division_template = "Loners Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Fox Squad"
+		location = 1513
+		division_template = "Loners Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Seriy Squad"
+		location = 4563
+		division_template = "Loners Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Wolf Squad"
+		location = 185
+		division_template = "Loners Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Fanatic Squad"
+		location = 7867
+		division_template = "Loners Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+

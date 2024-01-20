@@ -1,0 +1,18 @@
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		2055 2158 2238 3407 4315 4799 7561 7712 7974 11520 11686 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = M14
+			
+		}
+}

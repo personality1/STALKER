@@ -1,0 +1,19 @@
+
+state={
+	id=255
+	name="STATE_255"
+	provinces={
+		154 409 515 707 1363 1801 2941 3106 3205 3371 3454 3751 3833 3869 4388 4424 4915 5058 5087 5224 5491 5690 5777 5783 7607 7887 8188 8308 10931 10999 11156 11252 11343 11374 11377 11411 11412 11457 11495 11542 11590 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+		owner = M10
+	}
+}

@@ -1,0 +1,52 @@
+focus_tree = {
+	id = loners_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LON
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = LON_main_quest_start
+		icon = GFX_
+		x = 0
+		y = 0
+		cost = 1
+		
+		completion_reward = {
+				news_event = loners.1
+			}
+			
+		}
+	
+	focus = {
+		id = LON_main_1
+		icon = GFX_
+		prerequisite = { focus = LON_main_quest_start }
+		x = 0
+		y = 1
+		cost = 1
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = LON_main_2
+		icon = GFX_
+		prerequisite = { focus = LON_main_1 }
+		x = 0
+		y = 2
+		cost = 10
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+}

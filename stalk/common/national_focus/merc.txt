@@ -1,0 +1,336 @@
+focus_tree = {
+	id = merc_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = MER
+		}
+	}
+	default = no
+	focus = {
+		id = MER_main_council
+		icon = GFX_focus_FIN_parmis_devils
+		cost = 1
+		x = 18
+		y = 1
+			completion_reward = {
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = MER_main_quest_start
+		icon = GFX_goal_generic_attack_allies
+		cost = 1
+		prerequisite = {
+			focus = MER_main_council
+		}
+		x = 18
+		y = 2
+			completion_reward = {
+					news_event = MERers.1
+				}
+
+	}
+	focus = {
+		id = MER_main_doctor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_main_quest_start
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = MER_labs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_main_doctor
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = MER_X18
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_labs
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = MER_X16
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_labs
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = MER_agu
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_labs
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = MER_X19
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_X16
+		}
+		prerequisite = {
+			focus = MER_X18
+		}
+		prerequisite = {
+			focus = MER_agu
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = MER_X8
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_X18
+		}
+		prerequisite = {
+			focus = MER_X16
+		}
+		prerequisite = {
+			focus = MER_agu
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = MER_support
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_main_quest_start
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = MER_freedom_1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_support
+		}
+		mutually_exclusive = {
+			focus = MER_freedom_2
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = MER_freedom_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_support
+		}
+		mutually_exclusive = {
+			focus = MER_freedom_1
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = MER_bandits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_support
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = MER_everyonewar
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_freedom_1
+			focus = MER_freedom_2
+		}
+		prerequisite = {
+			focus = MER_bandits
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = MER_monolith
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_everyonewar
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = MER_ecologists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_support
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = MER_main_wars
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10
+		prerequisite = {
+			focus = MER_main_council
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = MER_limansk
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_main_wars
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = MER_mil_limansk
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_limansk
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = MER_doctrine_bonus_1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_limansk
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = MER_civ_limansk
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_limansk
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = MER_dc_aw
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_main_wars
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = MER_railways_dc_aw
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_dc_aw
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = MER_doctrine_bonus_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_dc_aw
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = MER_warlab
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_X19
+		}
+		prerequisite = {
+			focus = MER_X8
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = MER_dc_village
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_main_wars
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = MER_doctrine_bonus_3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MER_dc_village
+		}
+		x = 32
+		y = 4
+
+	}
+}

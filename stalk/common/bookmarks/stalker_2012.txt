@@ -1,0 +1,19 @@
+bookmarks = {
+	bookmark = {
+		name = "START_NAME"
+		desc = "START_DESC"
+		date = 2012.1.1.12
+		picture = "gfx_select_date_2012"
+		default_country = "LON"
+		default = yes
+		
+		"LON" ={
+		history = "LON_START_DESC"
+		ideology = democratic
+		}
+		
+		"---"={
+			history = "OTHER_START_DESC"
+		}
+	  }
+}

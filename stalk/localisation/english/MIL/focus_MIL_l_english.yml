@@ -1,0 +1,33 @@
+﻿l_english:
+  #Main Tree
+  MIL_main_council:0 ""
+  MIL_main_council_desc:0 ""
+  MIL_main_quest_start:0 ""
+  MIL_main_quest_start_desc:0 ""
+  MIL_duty_eco:0 ""
+  MIL_duty_eco_desc:0 ""
+  MIL_loners_1:0 ""
+  MIL_loners_1_desc:0 ""
+  MIL_loners_2:0 ""
+  MIL_loners_2_desc:0 ""
+
+  #Doctor-labs Tree
+  MIL_main_doctor:0 "Living Legend"
+  MIL_main_doctor_desc:0 "Strelok told us that it might make sense to find a Doctor and talk to him."
+  MIL_labs:0 "Siege the Labs"
+  MIL_labs_desc:0 "We're not the only ones interested in this."
+  MIL_X18:0 "Kaymanov emitters"
+  MIL_X18_desc:0 "It's necessary to find the documents about the researches previously done in lab X-18. They can shed some light on the "Brain Scorcher"."
+  MIL_X16:0 "Miracle Machine"
+  MIL_X16_desc:0 "It ain't simple. You need to get to the scientists and find out where X16 is so you can get the missing documents."
+  MIL_agu:0 "Underground Hideout"
+  MIL_agu_desc:0 "Doctor suggested visiting Strelok's hideout in Agroprom Underground for some answers."
+  MIL_X19:0 "Call of the North"
+  MIL_X19_desc:0 "Obtain a functional psychic device to protect you from the Brain Scorcher."
+  MIL_X8:0 "Laboratory X8"
+  MIL_X8_desc:0 ""
+  MIL_warlab:0 "Siege the Generators Bunker"
+  MIL_warlab_desc:0 ""
+  #Wars Tree
+  MIL_wars:0 ""
+  MIL_wars_desc:0 ""

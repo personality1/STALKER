@@ -1,0 +1,19 @@
+
+state={
+	id=357
+	name="STATE_357"
+	provinces={
+		140 319 336 378 670 1302 1645 2026 2067 2201 3251 3664 4023 4096 4255 4322 4706 4749 4992 5010 5154 5267 5412 5430 5458 5624 5819 6284 6292 6342 6554 6878 7023 7027 7165 7280 7429 7914 8001 9886 9959 10094 10111 10120 10157 10163 10187 10200 10214 10260 10264 10281 10296 10300 10347 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		owner = MIL
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+	}
+}

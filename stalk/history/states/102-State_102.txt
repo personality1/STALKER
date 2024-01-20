@@ -1,0 +1,18 @@
+state={
+	id=102
+	name="STATE_102"
+	provinces={
+		119 399 558 636 824 2235 2403 2555 2901 3338 3724 3779 4068 4072 4239 5008 5772 5877 5903 5943 6470 6516 6663 6689 6701 7316 8168 8283 9641 9644 9667 9712 9723 9743 9752 9772 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = FRE
+			victory_points = { 9641 50 }
+		}
+}

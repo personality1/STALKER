@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Freedom Squad"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Skinflint's Squad"
+		location = 636
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Uncle Yar's Squad"
+		location = 119
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Loki's Squad"
+		location = 6756
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Lukash's Crew"
+		location = 4971
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Max's Squad"
+		location = 8011
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Chekhov's Squad"
+		location = 9893
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "FRE"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FRE"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

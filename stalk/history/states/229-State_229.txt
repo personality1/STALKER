@@ -1,0 +1,18 @@
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		839 1117 1156 1908 2024 3608 4270 7033 7109 7302 7823 10680 10687 10691 10696 10723 10751 10845 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = OSO
+			
+		}
+}

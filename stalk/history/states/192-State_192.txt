@@ -1,0 +1,20 @@
+
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		1331 3393 4248 7421 9946 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+		owner = DUT
+		victory_points = { 9946 50 }
+	}
+}

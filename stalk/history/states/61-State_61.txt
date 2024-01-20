@@ -1,0 +1,19 @@
+
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		279 308 1035 1711 1735 1766 2059 2097 2222 2433 2473 2576 3025 3249 3481 4189 5090 5306 5339 5818 5940 6282 6498 6988 7345 7698 7716 7873 8128 11531 11578 11908 11922 11926 11958 11977 12013 12014 12047 12053 12067 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+		owner = M04
+	}
+}

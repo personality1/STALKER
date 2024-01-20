@@ -1,0 +1,70 @@
+﻿division_template = {
+	name = "Yogavskaya Bratva"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Yoga's Crew"
+		location = 2809
+		division_template = "Yogavskaya Bratva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Flayer's Squad"
+		location = 8102
+		division_template = "Yogavskaya Bratva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Limpid's Squad"
+		location = 1881
+		division_template = "Yogavskaya Bratva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Senka's Squad"
+		location = 9860
+		division_template = "Yogavskaya Bratva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Tooth's Squad"
+		location = 6479
+		division_template = "Yogavskaya Bratva"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "B04"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "B04"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

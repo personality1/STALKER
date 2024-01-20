@@ -1,0 +1,18 @@
+state={
+	id=168
+	name="STATE_168"
+	provinces={
+		302 2629 3108 3543 3773 3897 4758 5040 5279 5603 6299 6348 6562 6710 7011 7471 8339 10138 10203 10212 10302 10320 10353 10371 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = MON
+			
+		}
+}

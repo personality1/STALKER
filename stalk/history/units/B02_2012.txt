@@ -1,0 +1,69 @@
+﻿division_template = {
+	name = "Sultanovskie Bratki"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Sultan's Crew"
+		location = 68
+		division_template = "Sultanovskie Bratki"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+	}
+	division = {
+		name = "Knuckles Squad"
+		location = 1548
+		division_template = "Sultanovskie Bratki"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Mrak's Squad"
+		location = 10056
+		division_template = "Sultanovskie Bratki"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Fiolet's Squad"
+		location = 5178
+		division_template = "Sultanovskie Bratki"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Tort's Squad"
+		location = 2816
+		division_template = "Sultanovskie Bratki"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "B02"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "B02"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

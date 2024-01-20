@@ -1,0 +1,18 @@
+state={
+	id=218
+	name="STATE_218"
+	provinces={
+		2836 3389 3830 4188 5098 7865 7875 10632 10728 10797 10870 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = M06
+			victory_points = { 4188 30 }
+		}
+}

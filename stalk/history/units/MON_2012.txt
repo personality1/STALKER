@@ -1,0 +1,120 @@
+﻿division_template = {
+	name = "Monolith Squad"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Charon's Crew"
+		location = 10548
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		name = "Preacher's Squad"
+		location = 2918
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		name = "Monolith Masters Squad"
+		location = 757
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10363
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9911
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9467
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4621
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 5794
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9408
+		division_template = "Monolith Squad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MON"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MON"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}

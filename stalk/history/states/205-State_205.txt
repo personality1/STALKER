@@ -1,0 +1,17 @@
+state={
+	id=205
+	name="STATE_205"
+	provinces={
+		163 294 718 1855 2276 2440 2585 2655 2812 2945 3394 3444 3451 3796 3857 3964 4197 4278 4392 4628 4863 4956 5037 5074 5204 5316 5974 5976 6508 6575 6912 7786 8057 8068 8185 10457 10467 10491 10573 10647 10839 10872 10922 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = M10
+		}
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=176
+	name="STATE_176"
+	provinces={
+		461 1682 2347 2934 3057 3334 3817 4180 4448 4598 4755 5140 5156 7060 7395 10272 10316 10321 10446 10449 10475 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		add_core_of = MUT
+		start_resistance = MUT
+		set_compliance = 0
+		set_resistance = 25
+		owner = M03
+	}
+}

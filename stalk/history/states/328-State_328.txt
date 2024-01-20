@@ -1,0 +1,17 @@
+state={
+	id=328
+	name="STATE_328"
+	provinces={
+		2236 4782 7686 11938 11939 11946 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+		history = {
+			add_core_of = MUT
+			start_resistance = MUT
+			set_compliance = 0
+			set_resistance = 25
+			owner = M05
+		}
+}

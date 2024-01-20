@@ -1,0 +1,29 @@
+﻿division_template = {
+	name = "Arena"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Arena Players"
+		location = 10052
+		division_template = "Arena"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.00
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ARE"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+}
